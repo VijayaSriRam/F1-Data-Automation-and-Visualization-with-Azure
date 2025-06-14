@@ -20,7 +20,7 @@ My primary analytical goal was to process historical race data to identify and v
 ## Project Architecture
 I designed and implemented a multi-layered Lakehouse architecture, which is a standard industry pattern for building scalable data platforms.
 
-![Project Architecture Diagram](https://github.com/VijayaSriRam/)
+![Project Architecture Diagram](https://github.com/VijayaSriRam/F1-Data-Automation-and-Visualization-with-Azure/blob/main/images/F1_Project_Architecture.png)
 
 1.  **Raw Layer (ADLS Gen2):** Source data is landed in its original format (CSV, single/multi-line JSON, etc.).
 2.  **Bronze Layer (Delta Lake):** Data is read, cleaned, schema-enforced, and enriched with audit columns. It is then stored as Delta tables.
